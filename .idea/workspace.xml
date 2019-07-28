@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16956df9-acf7-4e74-8ff6-250b2cc1c876" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diningphilosopherproblem/Chopstic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diningphilosopherproblem/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diningphilosopherproblem/Philorsopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diningphilosopherproblem/Solver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diningphilosopherproblem/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mergesort/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mergesort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mergesort/ParallelMergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrentcollections/BlockingQueues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentcollections/BlockingQueues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrentcollections/CountDownLatches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentcollections/CountDownLatches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrentcollections/CyclicBarriers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentcollections/CyclicBarriers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrentcollections/DelayQueues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentcollections/DelayQueues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrentcollections/Exchangers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentcollections/Exchangers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mergesort/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
@@ -49,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mergesort/ParallelMergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="-653">
               <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
@@ -258,12 +244,20 @@
       <updated>1564137179195</updated>
       <workItem from="1564137183549" duration="5580000" />
       <workItem from="1564196800863" duration="11629000" />
-      <workItem from="1564296016607" duration="1624000" />
+      <workItem from="1564296016607" duration="2833000" />
     </task>
+    <task id="LOCAL-00001" summary="dining philosoher problem, parallel merge sort">
+      <created>1564297838505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564297838505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18833000" />
+    <option name="totallyTimeSpent" value="20042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,6 +305,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dining philosoher problem, parallel merge sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="dining philosoher problem, parallel merge sort" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Runnable.java">
@@ -463,17 +461,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mergesort/ParallelMergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mergesort/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mergesort/ParallelMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
