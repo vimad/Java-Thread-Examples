@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
  *
  */
 
-public class App {
+class DQTest {
 
 	public static void main(String[] args) {
 

@@ -23,13 +23,13 @@ import java.util.concurrent.Executors;
 // *
 // */
 
-class Worker implements Runnable {
+class CountDownWorker implements Runnable {
 
 	private int id;
 	private CountDownLatch latch;
 	private Random random;
 	
-	public Worker(int id, CountDownLatch latch) {
+	public CountDownWorker(int id, CountDownLatch latch) {
 		this.latch = latch;
 		this.id = id;
 		this.random = new Random();
@@ -58,7 +58,7 @@ public class CountDownLatches {
 		CountDownLatch latch = new CountDownLatch(5);
 
 		for (int i = 0; i < 5; i++)
-			executorService.execute(new Worker(i,latch));
+			executorService.execute(new CountDownWorker(i,latch));
 	
 		try {
 			latch.await();

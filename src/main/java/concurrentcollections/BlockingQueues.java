@@ -17,11 +17,11 @@ import java.util.concurrent.BlockingQueue;
  * 
  */
 
-class FirstWorker implements Runnable {
+class BQFirstWorker implements Runnable {
 
 	private BlockingQueue<String> blockingQueue;
 	
-	public FirstWorker(BlockingQueue<String> blockingQueue) {
+	public BQFirstWorker(BlockingQueue<String> blockingQueue) {
 		this.blockingQueue = blockingQueue;
 	}
 
@@ -39,11 +39,11 @@ class FirstWorker implements Runnable {
 	}
 }
 
-class SecondWorker implements Runnable {
+class BQSecondWorker implements Runnable {
 
 	private BlockingQueue<String> blockingQueue;
 	
-	public SecondWorker(BlockingQueue<String> blockingQueue) {
+	public BQSecondWorker(BlockingQueue<String> blockingQueue) {
 		this.blockingQueue = blockingQueue;
 	}
 
@@ -65,8 +65,8 @@ public class BlockingQueues {
 		
 		BlockingQueue<String> queue = new ArrayBlockingQueue<>(10);
 
-		FirstWorker firstWorker = new FirstWorker(queue);
-		SecondWorker secondWorker = new SecondWorker(queue);
+		BQFirstWorker firstWorker = new BQFirstWorker(queue);
+		BQSecondWorker secondWorker = new BQSecondWorker(queue);
 
         new Thread(firstWorker).start();
         new Thread(secondWorker).start();

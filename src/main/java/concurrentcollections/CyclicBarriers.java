@@ -27,13 +27,13 @@ import java.util.concurrent.Executors;
  * 
  */
 
-class Worker implements Runnable {
+class CBWorker implements Runnable {
 
 	private int id;
 	private Random random;
 	private CyclicBarrier cyclicBarrier;
 
-	public Worker(int id, CyclicBarrier cyclicBarrier) {
+	public CBWorker(int id, CyclicBarrier cyclicBarrier) {
 		this.cyclicBarrier = cyclicBarrier;
 		this.random = new Random();
 		this.id = id;
@@ -65,7 +65,7 @@ class Worker implements Runnable {
 	public String toString() { return ""+this.id; };
 }
 
-public class App {
+class CBTest {
 
 	public static void main(String[] args) {
 
@@ -79,7 +79,7 @@ public class App {
 		});
 		
 		for(int i=0;i<5;++i)
-			executorService.execute(new Worker(i+1, barrier));
+			executorService.execute(new CBWorker(i+1, barrier));
 		
 		executorService.shutdown();
 	}
