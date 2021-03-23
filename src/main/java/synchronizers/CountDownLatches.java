@@ -1,4 +1,4 @@
-package concurrentcollections;
+package synchronizers;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
